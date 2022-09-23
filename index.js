@@ -54,5 +54,45 @@ function purcharge () {
 }
 purcharge()
 
+
+
+
 //create a calculator with htlm and js
+
+let num1 = 8
+let num2 = 2
+
+//create four function:add(), substract(), divide() , multiply()
+//call the correct function when the user click on one of the buttons
+//perdorm the given calculation using num1 and num2
+//render the result of the calculation in the paragraph with id="sum-el"
+//e.g if the used clicks on the "plus" button, you should render
+//"Sum: 10" (since 8+2 = 10) inside the paragraph with id="sum-el"
+
+let sumEl = document.getElementById("sum-el")
+
+function add1() {
+  let result = num1 + num2
+  sumEl.textContent = ("sum is: " + " " + result )
+
+}
+add1()
+function substract() {
+  let reault = num1 - num2
+  sumEl.textContent = ("sum is:" + " " + reault)
+
+}
+substract()
+
+function divide() {
+  let result = num1 / num2
+sumEl.textContent = ("sum is: " + " " + result)
+}
+divide()
+
+function multiply() {
+  let result = num1 * num2
+  sumEl.textContent = ("sum is: " + " " + result)
+}
+multiply()
 
