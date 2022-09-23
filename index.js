@@ -23,7 +23,7 @@ function save() {
 save();
 save();
 save();
-
+//concatenate exempl
 let firstName = "jepthe"
 let lastName= "Nkwanmen"
 let fullName= firstName + " " + lastName
@@ -32,6 +32,7 @@ function greating()
 {
 console.log("greatting" + " " + fullName + "!" )
 }
+//addition and soustraction 
 let point = 5
 function add(){
   point+= 5
@@ -45,7 +46,13 @@ function remove(){
 }
 remove()
 
+//use js to sent and error message using functio
+let errorParagraph = document.getElementById("error")
 function purcharge () {
-  console.log("clic button")
+  errorParagraph.textContent= "Something went wrong, please try again"
+  console.log(errorParagraph)
 }
 purcharge()
+
+//create a calculator with htlm and js
+
