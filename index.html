@@ -4,18 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.cs" />
+    <link rel="stylesheet" href="styles.css" />
     <title>JavaScript</title>
   </head>
-  <body>
-    <h1>Cours J</h1>
-    <h2 id="count-el">0</h2>
-    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+  <body bgcolor="#ccccc" algn-item="center">
+    <h1 style="text-align: center">Cours J</h1>
+    <h2 id="count-el" style="text-align: center">0</h2>
+    <button id="increment-btn" class="btn" onclick="increment()">
+      INCREMENT
+    </button>
     <br />
     <hr />
-    <button id="save-btn" onclick="save()">SAVE</button>
-
-      <p id= "save-el">previous entires: </p>
-
+    <button id="save-btn" style="color: blue" onclick="save()">SAVE</button>
+    <p
+      style="text-align: center"
+      style="font-family: arialsans-serif"
+      id="save-el"
+    >
+      previous entires:
+    </p>
+    <br />
+    <hr />
+    <img src="👟" alt="google image" />
+    <p>NIKE SHO</p>
+    <button style="color: red" onclick="purcharge()">purcharge - $149</button>
+    <p id="error"></p>
   </body>
 </html>
